@@ -1,5 +1,4 @@
 @extends('layout')
-
 @section('content')
 <div class="bg-white shadow rounded p-4 space-y-2">
     <h2 class="text-2xl font-bold">{{ $post->title }}</h2>

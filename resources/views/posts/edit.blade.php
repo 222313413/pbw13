@@ -1,5 +1,4 @@
 @extends('layout')
-
 @section('content')
 <div class="bg-white shadow rounded p-4">
     <form action="{{ route('posts.update', $post->id) }}" method="POST" class="space-y-4">
